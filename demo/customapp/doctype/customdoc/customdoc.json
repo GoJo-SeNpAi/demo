@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-07 15:40:57.959741",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "data1",
+  "data2",
+  "attach",
+  "button",
+  "check",
+  "color",
+  "datentime",
+  "text",
+  "password",
+  "select"
+ ],
+ "fields": [
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data",
+   "label": "no1"
+  },
+  {
+   "fieldname": "data2",
+   "fieldtype": "Int",
+   "label": "no2"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "attach"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "color"
+  },
+  {
+   "fieldname": "datentime",
+   "fieldtype": "Datetime",
+   "label": "datentime"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "text"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "password"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "select",
+   "options": "1\n2\n3\n4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-07 16:01:24.985889",
+ "modified_by": "Administrator",
+ "module": "customapp",
+ "name": "customdoc",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
